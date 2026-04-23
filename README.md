@@ -8,13 +8,13 @@ CrevixRust is a custom operating system featuring a bulletproof, pure-Python des
 
 **✨ Features**
 
-**Custom UI Framework **(crevix_ui.py): Windows 11-style borderless rounded corners, custom title bars, and a unified color palette.
+**Custom UI Framework** (crevix_ui.py): Windows 11-style borderless rounded corners, custom title bars, and a unified color palette.
 
 **Global Theming**: System-wide Light and Dark mode toggles.
 
 **Foolproof Crash Shield**: Python exceptions are caught and displayed safely in GUI message boxes instead of crashing the OS.
 
-**Built-in Apps**: * Parallax (File Explorer with .exe Wine64 support)
+**Built-in Apps**: Parallax (File Explorer with .exe Wine64 support)
 
 **GPUMate (Hardware Monitor)**
 
@@ -30,7 +30,8 @@ Ensure you are in your WSL/Linux home directory (e.g., ~/CrevixRust_OS_Project).
 
 Run the build script as root:
 
+```bash
 sudo ./build.sh
-
+```
 
 The final bootable ISO will be generated in build/CrevixRust_OS.iso.
