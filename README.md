@@ -1,6 +1,7 @@
-# 🧠 CrevixRust OS
+# 🧠 CrevixCore OS & CrevixRust OS
 
-**Version: 0.2 Early Beta Release**
+Current Releases
+**Version: 0.3 Early Beta Release**
 Kernel: Rust Official Kernel Booter (Linux 6.6.10 Base)
 **Developer: FEOServices**
 
@@ -22,9 +23,13 @@ CrevixRust is a custom operating system featuring a bulletproof, pure-Python des
 
 **TextEditor & ImageViewer**
 
+**Ozmo Browser for Browsing the internet**
+
+**App Store support for downloading world renowned apps**
+
 # 🚀 Building the OS
 
-You can build this OS natively on Linux or via WSL (Windows Subsystem for Linux).
+You can build this OS natively on Linux (Not tested) or via WSL (Windows Subsystem for Linux).
 
 Ensure you are in your WSL/Linux home directory (e.g., ~/CrevixRust_OS_Project). Do not build on a mounted Windows drive (/mnt/c/).
 
@@ -35,3 +40,4 @@ sudo ./build.sh
 ```
 
 The final bootable ISO will be generated in build/CrevixRust_OS.iso.
+**Enjoy!**
